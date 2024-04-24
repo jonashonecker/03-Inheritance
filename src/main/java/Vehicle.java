@@ -6,6 +6,12 @@ public class Vehicle {
     public Vehicle() {
     }
 
+    public Vehicle(String manufacturer, String model, int yearOfManufacture) {
+        this.manufacturer = manufacturer;
+        Model = model;
+        this.yearOfManufacture = yearOfManufacture;
+    }
+
     @Override
     public String toString() {
         return "Vehicle{" +
